@@ -1,0 +1,64 @@
+h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+#userInfo {
+  padding: 30px 50px 40px;
+  border: 1px solid rgb(235, 235, 235);
+  background-color: white;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#userInfo > h3 {
+  margin-top: 1px;
+  margin-bottom: 25px;
+}
+
+#userInfo > form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  margin-top: -10px;
+  height: 30px;
+  border: 1px solid rgb(167, 166, 166);
+  padding-left: 5px;
+}
+
+label {
+  font-size: 1em;
+  font-weight: 550;
+}
+
+#smallLabel {
+  width: 20%;
+}
+
+#flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+#flex > p {
+  font-weight: bold;
+  margin-top: -5px;
+}
+
+#nextBtn {
+  background-color: rgb(22, 25, 35);
+  border: 1px solid rgb(22, 25, 35);
+  height: 45px;
+  font-size: 1.1em;
+  color: white;
+  margin-top: -5px;
+  cursor: pointer;
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
+}

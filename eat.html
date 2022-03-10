@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cult.fit - health food | fitness | meditation</title>
+    <link rel="shortcut icon" href="https://static.cure.fit/assets/images/favicon-modified.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/eat.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/login.css">
+    <link href="//db.onlinewebfonts.com/c/47b83f8dbd3bf93e0df5674b32c6a7e4?family=BrandonTextWeb-Regular"
+        rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+
+    <!-- -----------------login---------------- -->
+    <div id="login">
+
+    </div>
+
+    <p id="cart_count"></p>
+
+    <!-- Navbar -->
+
+    <div id="navbar" style="position:unset;">
+
+    </div>
+
+    
+<!-- ---------------------------------------container---------------------------------------------------------- -->
+<div id="container">
+
+    <!------------------------------- slider div -------------------------------------------------->
+
+    <div class="slider_main">
+        <div id="sliders">
+            <img src="https://bit.ly/3HmA7Dr" alt="image">
+            <img src="https://bit.ly/3p5u3Zz" alt="image">
+            <img src="https://bit.ly/34YOLDA" alt="image">
+        </div>
+        <div style="display: flex; justify-content: space-between;">
+            <div id="slider_btn">
+                <span id="btn1" class="active"></span>
+                <span id="btn2"></span>
+                <span id="btn3"></span>
+            </div>
+            <div id="slider_arrow" style="gap: 0px;">
+                <i class="material-icons-outlined" id="left_arrow_btn" style="font-size: 30px; font-weight: bolder;">chevron_left</i>
+                <i class="material-icons-outlined" id="right_arrow_btn" style="font-size: 30px; font-weight: bolder;">navigate_next</i>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------- end of slider div ---------------------------------------->
+
+    <!-- ---------------------------------main dish div--------------------------------------------------- -->
+
+    <div id="menu_box">
+        <div id="menu_head">
+            <div id="item_select_div">
+                <div id="item_select">
+                    <p id="eat_now">EAT NOW</p>
+                    <ul id="ul_list">
+                        <a href="#rice_bowl" id="li1"><li>EAT NOW</li></a>
+                        <a href="#non_veg_curries" id="li2"><li>TODAY'S DINNER</li></a>
+                        <a href="#kulcha_burger" id="li3"><li>TOMORROW'S BREAKFAST</li></a>
+                        <a href="#indian_thalis" id="li4"><li>TOMORROW'S LUNCH</li></a>
+                        <a href="#bread_rice" id="li5"><li>TOMORROW'S SNACKS</li></a>
+                    </ul>
+                </div>
+            </div>
+            <div id="select_filter">
+                <span id="veg_span">VEG</span>
+                <div id="filter_img">
+                    <img src="./images/filter.png">
+                     <span id="filter_img_class">FILTERS</span> 
+                    <div id="filter_overlay">
+                        <div style="margin-bottom: 10px; display: flex; justify-content: space-between;"><div>CALORIES</div><div style="font-size: small; color: rgb(230,6,120);" onclick="window.location.href='eat.html'">Clear all</div></div>                          
+                        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8%;">
+                            <span id="clear_all">All</span>
+                            <span id="zero">0-200</span>
+                            <span id="two">200-500</span>
+                            <span id="four">500+</span>
+                        </div>
+
+                        <div style="margin: 20px 0">NUTRITION</div>
+                        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">                        
+                            <div>
+                                <input type="checkbox" id="check1"> High protein
+                            </div>
+                            <div>
+                                <input type="checkbox" id="check2"> Low calorie
+                            </div>
+                            <div><input type="checkbox" id="check3"> High fibre</div>
+                            <div><input type="checkbox" id="check4"> Vegan</div>
+                        </div>
+                        <div style="margin: 25px;">
+                            <button style="color: rgb(253,50,101);" id="cancel">CANCEL</button>
+                            <button style="background-color: rgb(253,50,101); border: none; color: white; box-shadow: rgba(247, 22, 127, 0.24) 0px 3px 8px;" id="apply">APPLY</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="menu">
+            <div id="menu_sidebar">
+                <ul>
+                    <a href="#rice_bowl"><li>3 Layer Rice Bowls</li></a>
+                    <a href="#indian_thalis"><li>Indian Thalis</li></a>
+                    <a href="#khichdis"><li>Khichdis</li></a>
+                    <a href="#multigrain"><li>Multigrain Pizzas</li></a>
+                    <a href="#beverages"><li>Beverages</li></a>
+                    <a href="#fit_curries"><li>Fit Curries</li></a>
+                    <a href="#bread_rice"><li>Bread & Rice</li></a>
+                    <a href="#non_veg_curries"><li>Non-Veg Curries</li></a>
+                    <a href="#kulcha_burger"><li>Kulcha Burger</li></a>
+                    <a href="#signature_salad"><li>Signature Salads</li></a>
+                </ul>
+            </div>
+            <div id="dish_item">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+
+</div>
+</body>
+
+<script type="module" src="scripts/eat.js"></script>
+
+</html>

@@ -1,0 +1,64 @@
+/* Payment container  */
+
+.container {
+  width: 30%;
+  margin: auto;
+  background-color: white;
+  margin-top: 5%;
+  padding: 15px;
+  border: 1px solid rgb(173, 173, 173);
+}
+
+.container > form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 20px 35px;
+  border-radius: 5px;
+}
+
+#btmDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  margin-bottom: -5px;
+  font-size: 1.2em;
+}
+
+#bigText {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+input {
+  height: 32px;
+  margin-bottom: 10px;
+}
+
+#btn {
+  height: 45px;
+  background-color: rgb(22, 25, 35);
+  border: 1px solid rgb(22, 25, 35);
+  color: white;
+  cursor: pointer;
+  font-size: 1.2em;
+  margin: 10px 0px 0px;
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
+}
+
+
+#cvv {
+  width: 50px;
+  margin: 0px 20px 0px 8px;
+  height: 32px;
+}
+
+#date {
+  width: 140px;
+  margin-left: 10px;
+  height: 35px;
+}

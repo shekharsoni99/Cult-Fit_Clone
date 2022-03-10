@@ -1,0 +1,206 @@
+
+#cart_count {
+  position: absolute;
+  color: yellow;
+  right: 1%;
+  top: 1%;
+  font-weight: bold;
+  font-size: large;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  /* border: solid; */
+  width: 80%;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  padding: 2% 3%;
+  gap: 5%;
+  color: rgb(117, 117, 117);
+}
+
+#left {
+  /* border: solid red; */
+  width: 55%;
+  height: 60%;
+  /* position: sticky; */
+  /* top: 60px; */
+  color: rgb(58, 58, 58);
+}
+
+#right {
+  /* border: solid; */
+  width: 40%;
+  height: 100%;
+  cursor: default;
+}
+
+#left_up {
+  /* border: 1px solid rgba(199, 199, 199, 0.945); */
+  border-radius: 13px;
+  width: 100%;
+  height: 40%;
+  overflow: scroll;
+  padding: 3%;
+  font-size: 20px;
+  cursor: default;
+}
+
+#left_up > div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  gap: 5%;
+  font-size: small;
+  margin-bottom: 3%;
+}
+
+#left > div:nth-child(1) {
+  width: 20%;
+}
+
+#left_up > div img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+#left_up button {
+  margin-top: 5%;
+  border: none;
+  outline: none;
+  width: 30%;
+  height: 33%;
+  border: 2px solid rgb(255, 50, 120);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#left_down button {
+  box-sizing: border-box;
+  color: rgb(255, 50, 120);
+  border: none;
+  background-color: transparent;
+  display: block;
+  cursor: pointer;
+  margin-top: 3%;
+  font-weight: bold;
+}
+
+#left_down {
+  /* border: solid red; */
+  /* background-color: rgb(238, 238, 238); */
+  width: 100%;
+  height: 40%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 60%;
+  overflow-x: scroll;
+  overscroll-behavior-inline: contain;
+  gap: 15px;
+  cursor: default;
+}
+
+#left_down > div {
+  /* border: solid yellow; */
+  border-radius: 10px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  gap: 2%;
+  font-size: 14px;
+  background-color: rgb(221, 221, 221);
+}
+
+#left_down > div > div {
+  /* border: solid blue; */
+  width: 50%;
+  height: 100%;
+  object-fit: fill;
+}
+
+#left_up::-webkit-scrollbar {
+  width: 8px;
+}
+
+#left_up::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, rgb(100, 100, 100));
+  border-radius: 5px;
+}
+
+#left_down::-webkit-scrollbar {
+  display: none;
+}
+
+#left_down > div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#address {
+  /* border: yellow solid; */
+  display: flex;
+  justify-content: space-between;
+  height: 10%;
+  width: 100%;
+}
+#instruction {
+  /* border: yellow solid; */
+  display: flex;
+  justify-content: space-between;
+  height: 15%;
+  width: 100%;
+}
+#time {
+  /* border: yellow solid; */
+  display: flex;
+  justify-content: space-between;
+  height: 15%;
+  width: 100%;
+}
+
+#total_price {
+  /* border: solid; */
+  width: 100%;
+  height: 60%;
+  margin-top: 8%;
+  color: rgb(175, 175, 175);
+}
+
+#total_price > div {
+  /* border: solid; */
+  display: flex;
+  justify-content: space-between;
+  height: 13%;
+}
+
+#final_total {
+  color: black;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+#right_button button {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-size: 1em;
+  margin-top: 20px;
+  background-image: linear-gradient(
+    to right,
+    rgb(247, 67, 53),
+    rgb(255, 48, 112)
+  );
+}

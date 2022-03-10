@@ -1,0 +1,417 @@
+@import url(//db.onlinewebfonts.com/c/47b83f8dbd3bf93e0df5674b32c6a7e4?family=BrandonTextWeb-Regular);
+
+/* Navbar */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  font-family: "BrandonTextWeb-Regular";
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  background-color: rgb(22, 25, 35);
+  color: rgb(185, 186, 188);
+  align-items: center;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#iconDiv {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#icon {
+  width: 120px;
+}
+
+#midDiv {
+  display: flex;
+  font-size: 1.15em;
+  width: 50%;
+  gap: 62px;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: -110px;
+  cursor: pointer;
+}
+
+#midDiv > p > a {
+  text-decoration: none;
+  color: rgb(185, 186, 188);
+}
+
+#midDiv > p > a:hover {
+  color: white;
+}
+
+#midDiv > p:hover {
+  color: white;
+}
+
+#midDiv > p:focus {
+  border-bottom: 2px solid white;
+}
+
+#lastDiv {
+  display: flex;
+  align-items: center;
+  width: 24%;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+#location {
+  width: 27px;
+}
+
+#getApp {
+  border: 1px solid white;
+  padding: 7px 15px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+
+#userPic {
+  width: 35px;
+  border-radius: 50%;
+}
+
+#cart {
+  width: 25px;
+}
+
+/* First Div */
+
+#firstDiv {
+  display: flex;
+  justify-content: space-around;
+  padding: 130px 130px 90px;
+}
+
+#textDiv {
+  width: 30%;
+  margin-top: -35px;
+}
+
+#textDiv > h1 {
+  font-size: 3em;
+}
+
+#textDiv > p {
+  color: rgb(110, 109, 109);
+  font-size: 1.1em;
+  font-weight: bold;
+  word-spacing: 0.1em;
+  line-height: 2em;
+}
+
+#blue {
+  color: rgb(0, 171, 233);
+}
+
+#videoDiv {
+  width: 64%;
+}
+
+#videoDiv > video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Second Div */
+
+#secondDiv {
+  height: 740px;
+  cursor: pointer;
+  padding: 0px 150px;
+}
+
+#upperDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#arrow {
+  transform: scale(-1, -1);
+}
+
+#leftDiv > h1 {
+  font-size: 3.3em;
+}
+
+#leftDiv > h3 {
+  color: rgb(76, 76, 76);
+  margin-top: -23px;
+}
+
+#leftDiv > p {
+  color: rgb(76, 76, 76);
+  font-size: 0.9em;
+  margin-bottom: 45px;
+}
+
+#rightDiv {
+  display: flex;
+  align-items: center;
+  width: 77px;
+  justify-content: space-between;
+}
+
+#rightDiv > a {
+  text-decoration: none;
+  color: rgb(76, 76, 76);
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+#rightDiv > img {
+  width: 10px;
+  margin-top: 3px;
+}
+
+#lowerDiv {
+  height: 470px;
+  border-radius: 10px;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+#imgDiv1 {
+  position: relative;
+  flex: 3;
+  overflow: hidden;
+}
+
+#imgDiv2 {
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+}
+
+#imgDiv3 {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+}
+
+#img1 {
+  width: 800px;
+  object-fit: cover;
+  object-position: -50px;
+}
+
+#img2 {
+  width: 770px;
+  object-fit: cover;
+  object-position: -420px;
+}
+
+#img3 {
+  width: 800px;
+  object-position: -450px;
+  object-fit: cover;
+}
+
+#bigText {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+#smallText {
+  position: absolute;
+  top: 60px;
+  margin-top: 22px;
+  left: 40px;
+  color: white;
+  font-size: 0.9em;
+  width: 40%;
+  line-height: 2.2em;
+}
+
+#exploreBtn {
+  position: absolute;
+  top: 260px;
+  left: 40px;
+  background-color: rgb(255, 255, 255, 0);
+  color: white;
+  font-weight: bold;
+  padding: 8px 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 0.75em;
+  cursor: pointer;
+}
+
+#exploreBtn:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease-in;
+}
+
+/* App Div */
+
+#appDiv {
+  margin-top: 35px;
+  width: 100%;
+  height: 600px;
+  background-image: linear-gradient(to right, #6f69aa, #378ac5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 100px;
+}
+
+#links {
+  display: flex;
+  gap: 35px;
+}
+
+#apple,
+#google {
+  cursor: pointer;
+}
+
+#appDivLeft {
+  width: 620px;
+}
+
+#appDivRight {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#appDivLeft > h1 {
+  font-size: 2.2em;
+  margin-top: -10px;
+}
+
+#appDivLeft > p {
+  font-size: 1.2em;
+}
+
+#appDivRight > img {
+  width: 300px;
+  height: 350px;
+}
+
+/* Explore Div */
+
+#exploreDiv {
+  width: 100%;
+  height: 500px;
+}
+
+#exploreDiv > img {
+  width: 100%;
+}
+
+/* Careers Div */
+
+#careersDiv {
+  width: 100%;
+  overflow: hidden;
+}
+
+#careersDiv > img {
+  width: 100%;
+}
+
+/* Second last Div */
+
+#betterDiv {
+  height: 300px;
+  padding-left: 155px;
+  box-sizing: border-box;
+}
+
+#txt1 {
+  color: rgb(110, 110, 110);
+  font-size: 6em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#txt2 {
+  font-size: 4.6em;
+  color: rgb(178, 178, 178);
+  font-weight: bold;
+  margin-top: -90px;
+}
+
+/* Footer */
+
+#footer {
+  height: 450px;
+  background-color: black;
+  padding: 100px 80px;
+  display: flex;
+  color: rgb(202, 202, 202);
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+#left {
+  flex: 1;
+}
+
+#left > p {
+  font-size: 1.05em;
+}
+
+#left > div > img {
+  width: 150px;
+}
+
+#mid {
+  display: grid;
+  flex: 1.5;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0px 40px 0px 50px;
+  font-size: 1.05em;
+  text-align: center;
+}
+
+#mid > div {
+  cursor: pointer;
+}
+
+#right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0.6;
+  gap: 25px;
+}
+
+#bigIcons > img {
+  width: 180px;
+  cursor: pointer;
+}
+
+#smallIcons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+#smallIcons > img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}

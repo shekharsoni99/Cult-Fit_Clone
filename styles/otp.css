@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+  width: 100%;  
+  background-color: rgb(22, 25, 35);
+  height: 60px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+#navImg {
+  /* height: 64px; */
+  width: 190px;
+  margin: auto;
+}
+
+#icon{
+    width: 180px;
+}
+
+/* OTP container */
+
+.container {
+  margin: auto;
+  border: grey 1px solid;
+  padding: 35px;
+  width: 20%;
+  margin-top: 5%;
+  background-color: white;
+  text-align: center;
+}
+
+input {
+  height: 32px;
+  margin-left: 10px;
+}
+
+#btn {
+  height: 40px;
+  background-color: rgb(22, 25, 35);
+  border: 1px solid rgb(22, 25, 35);
+  color: white;
+  margin-top: 35px;
+  width: 40%;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+

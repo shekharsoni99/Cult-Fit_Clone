@@ -1,0 +1,59 @@
+#footer {
+  height: 450px;
+  background-color: black;
+  padding: 100px 80px;
+  display: flex;
+  color: rgb(202, 202, 202);
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+#left {
+  flex: 1;
+}
+
+#left > p {
+  font-size: 1.05em;
+}
+
+#left > div > img {
+  width: 150px;
+}
+
+#mid {
+  display: grid;
+  flex: 1.5;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0px 40px 0px 50px;
+  font-size: 1.05em;
+  text-align: center;
+}
+
+#mid > div {
+  cursor: pointer;
+}
+
+#right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0.6;
+  gap: 25px;
+}
+
+#bigIcons > img {
+  width: 180px;
+  cursor: pointer;
+}
+
+#smallIcons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+#smallIcons > img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}

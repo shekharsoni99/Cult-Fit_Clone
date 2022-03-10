@@ -1,0 +1,345 @@
+
+@media  screen and (min-width: 0px) and (max-width: 620px) {
+    #dish_item > div{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+#cart_count {
+    position: absolute;
+    color: yellow;
+    right: 1%;
+    top: 1%;
+    font-weight: bold;
+    font-size: large;
+}
+
+/* ----------------------------------------------------------------slider css---------------------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Lato:wght@100&family=Montserrat:wght@200&family=News+Cycle&family=Roboto:ital,wght@0,300;1,300&family=Rubik&family=Spline+Sans:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* scroll-behavior: smooth; */
+    box-sizing: border-box;
+}
+
+.slider_main{ 
+    /* border: solid; */
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+}
+
+.slider_main #sliders{
+    position: relative;
+    /* border: solid; */
+    height: 85%;
+    width: 100%;
+    display: inline-flex;
+    transition: 1s;
+}
+
+.slider_main #sliders img {
+    width: 100%;
+    height: 100%;
+}
+
+.slider_main > img {
+    width: 100%;
+    height: 100%;
+}
+
+#slider_btn {
+    /* border: solid; */
+    width: 10%;
+    height: 5%;
+    display: flex;
+    gap: 15px;
+    margin: 1.5% 0 0 2.5%;    
+}
+
+#slider_btn > span {
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;   
+    background-color: rgb(158, 158, 158);
+    cursor: pointer;
+}
+
+#slider_btn > span:hover{
+    background-color: black;
+}
+
+#slider_arrow {
+    /* border: solid; */
+    cursor: pointer;
+    margin-right: 2%;
+    margin-top: 0.5%;
+}
+
+.active {
+    background-color: black !important;
+}
+
+/* ----------------------------------------------------------end of slider css------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------menu head----------------------------------------------------------------------- */
+
+#menu_box {
+    /* border: solid; */
+    padding: 2% 0;
+    /* position: relative; */
+}
+
+#menu_head {
+    /* border: solid; */
+    /* background-color: rgba(255, 255, 255, 0.13); */
+    padding: 2% 2%;
+    /* border-bottom: 1px solid rgb(185, 185, 185); */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+#item_select_div {
+    width: 16%;
+    margin-left: 9%;
+}
+
+#item_select{
+    /* border: solid; */
+    position: relative;
+    border: none;
+    font-size: small;
+    height: 35px;
+    cursor: pointer;
+    background-color: rgb(219,229,245);
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 3% 8%;
+}
+
+#item_select ul {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 250px;
+    padding: 5%;
+    z-index: 3;
+    background-color: white;
+    list-style-type: none;
+    line-height: 2.5;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#item_select ul li:hover {
+    color: rgb(253, 80, 166);
+}
+
+#select_filter {
+    /* border: solid; */
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#filter_img {
+    cursor: pointer;
+    position: relative;
+}
+
+#filter_img img {
+    width: 12%;
+    margin-left: 15%;
+}
+
+#veg_span{
+    width: 150%;
+    text-align: center;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 5px;
+    color: rgb(180, 180, 180);
+    cursor: pointer;
+    font-size: small;
+    padding: 2%;
+}
+
+#filter_overlay {
+    /* border: solid; */
+    position: absolute;
+    right: 15%;
+    top: 150%;
+    z-index: 2;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: black;
+    box-sizing: border-box;
+    padding: 15%;
+    cursor: pointer;
+}
+
+#filter_overlay span {
+    margin-top: 5%;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 12.5px;
+    width: 100%;
+    height: 25px;
+    background-color: rgb(232,232,244);
+}
+
+#filter_overlay span:hover {
+    background-color: gray;
+}
+
+#filter_overlay input {
+    width: 15px;
+    outline: none;
+}
+
+#filter_overlay button {
+    width: 45%;
+    height: 35px;
+    font-weight: bold;
+    border: 2px solid rgb(202, 202, 202);
+    background-color: white;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+/* ----------------------------------------end of menu head------------------------------------------------------------------------ */
+
+/* -------------------------------------------------side bar------------------------------------------------------------------------ */
+
+a {
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+}
+
+#menu {
+    display: flex;
+    box-sizing: border-box;
+    padding: 1% 11%;
+    /* position: relative; */
+}
+
+#menu_sidebar {
+    /* border: solid; */
+    height: 500px;
+    position: sticky;
+    top: 80px;
+    flex: 2;
+    margin-top: 3%;
+    z-index: 1;
+}
+#menu_sidebar ul {
+    /* border: solid; */
+    list-style-type: none;
+    line-height: 3;
+    color: rgb(75, 75, 75);
+}
+
+#menu_sidebar li:hover {
+    color: rgb(54, 54, 54);
+    font-size: 19px;
+    line-height: 2.4;
+    border-bottom: 1px solid rgb(234,6,120);
+    transition: .1s;
+    cursor: pointer;
+}
+
+/* -----------------------------------------menu items------------------- */
+
+#dish_item {
+    /* border: solid; */
+    flex: 8;
+    font-size: 14px;
+    color: rgb(77, 77, 77);
+    box-sizing: border-box;
+    padding: 4% 8%;
+}
+
+#dish_item > div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+#dish_item >div > div{
+    /* border: solid; */
+    height: 350px;
+    /* width: 100%; */
+    box-sizing: border-box;
+    padding: 3% 3% 8% 3%;
+    line-height: 1.5;
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+
+#dish_item > div > div:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+#dish_item > div button { 
+    color: rgb(234,6,120);
+    background-color: white;
+    width: 25%;
+    /* padding: 2%; */
+    height: 30px;
+    border-radius: 15px;
+    border: 1.5px solid rgb(207, 207, 207);
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+}
+
+#dish_item >div button:hover {
+    background-color: rgb(236, 236, 236);
+    transition: 0.3s;
+}
+
+#priceDiv {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+#imgDiv {
+    /* border: solid; */
+    overflow: hidden;
+    height: 75%;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 5%;
+}
+
+#imgDiv img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+#imgDiv > img:hover {
+    width: 105%;
+    height: 105%;
+    transition: 500ms;
+}
+
+.fibre {
+    /* border: solid; */
+    color:  rgb(163, 163, 163);
+    padding: 0 3%;
+}

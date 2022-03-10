@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Lato:wght@100&family=Montserrat:wght@200&family=News+Cycle&family=Roboto:ital,wght@0,300;1,300&family=Rubik&family=Spline+Sans:wght@400;500&display=swap');
+
+body {
+    /* background-color: black; */
+    font-family: 'Rubik', sans-serif;
+}
+
+#login {
+    background-color: black;
+    box-sizing: border-box;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 30%;
+    padding: 2% 3%;
+    margin: auto;
+    color: white;
+    height: 550px;
+    display: none;
+    z-index: 2;
+    color: gray;
+    line-height: 1.5;
+}
+
+#continue_btn, #login_signup_btn, #login_verify_btn {
+    display: block;
+    cursor: pointer;
+    width: 98%;
+    height: 32px;
+    margin: 10% 0;
+    border: none;
+    outline: none;
+    text-align: left;
+    padding-left: 5%;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+#login_span {
+    color: white;
+}
+
+#login_span:hover {
+    color: red;
+    cursor: pointer;
+}
+
+#login_img_div{
+    /* border: solid red; */
+    width: 100%;
+    height: 40%;
+    display: grid;
+    place-items: center;
+    margin-bottom: 7%;
+}
+
+#login_img {
+    /* border: yellow solid; */
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    margin-top: -20px;
+}
+
+#down {
+    box-sizing: border-box;
+    /* border: solid yellow; */
+    width: 100%;
+    height: 50%;
+}
+
+#login_input {
+    color: white;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid gray;
+    width: 85%;
+    padding-left: 3%;
+    font-size: 15px;
+    margin-top: 5%;
+}
+
+#login_input:focus {
+    outline: none;
+}

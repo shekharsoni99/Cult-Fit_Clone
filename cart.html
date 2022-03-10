@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cult.fit - health food | fitness | meditation</title>
+    <link rel="shortcut icon" href="https://static.cure.fit/assets/images/favicon-modified.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link href="//db.onlinewebfonts.com/c/47b83f8dbd3bf93e0df5674b32c6a7e4?family=BrandonTextWeb-Regular"
+        rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="styles/cart.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+
+<body>
+
+    <p id="cart_count" ></p>
+
+    <!-- -----------------------------navbar---------------------------- -->
+    <div id="navbar" style="position: unset;">
+
+    </div>
+
+    <!-- ----------------------------------main container----------------------------- -->
+
+    <div id="container">
+
+        <!-- -----------left div-------------- -->
+        <div id="left">
+            <p style="font-weight: bolder; font-size: 18px; margin-bottom: 1%;">Order Summary</p>
+            <div id="left_up"></div>
+            <p style="margin: 10% 0 3% 0; font-weight: bold">People also add</p>
+            <div id="left_down"></div>
+
+        </div>
+
+        <!-- -------------------right div------------------ -->
+        <div id="right">
+            <div id="address">
+                <div><span class="material-icons-outlined" style="color: rgb(255,50,120);">location_on</span> Add Your
+                    Address</div>
+                <div style="color: rgb(255,50,120); cursor: pointer;">Change</div>
+            </div>
+            <div id="instruction">
+                <div>
+                    <div style="font-weight: bolder; font-size: large; color: black;"><span class="material-icons"
+                            style="color: rgb(255,50,120);">library_books</span> Instruction:</div>
+                    <div>Call on arrival</div>
+                </div>
+                <div>
+                    <span class="material-icons"
+                        style="font-size: 40px; font-weight: bold; cursor: pointer;">expand_more</span>
+                </div>
+            </div>
+            <div id="time">
+                <div>
+                    <p style="font-weight: bolder; font-size: large; color: black;"><span
+                            class="material-icons-outlined" style="color: rgb(255,50,120);;">schedule</span>Time Slot
+                    </p>
+                    <p>Select delivery slot</p>
+                </div>
+                <div>Tomorrow <span class="material-icons"
+                        style="font-size: 40px; font-weight: bold; cursor: pointer;">expand_more</span></div>
+            </div>
+            <div id="total_price">
+                <div>
+                    <div>Item Total</div>
+                    <div id="str_total"></div>
+                </div>
+                <div>
+                    <div>Price Discount</div>
+                    <div id="discount_total"></div>
+                </div>
+                <div>
+                    <div>Delivery charge</div>
+                    <div>₹ 0</div>
+                </div>
+                <div>
+                    <div>Packaging charge</div>
+                    <div id="pack_charge"></div>
+                </div>
+                <div>
+                    <div style="color: black; font-size: larger; font-weight: bolder;">Total Payable</div>
+                    <div id="final_total"></div>
+                </div>
+                <div id="right_button">
+                    <div></div>
+                    <div><button onclick="window.location.href='checkout.html'">Checkout Page</button></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- --------------------------------footer---------------------------------- -->
+
+    <div id="footer">
+
+    </div>
+</body>
+
+</html>
+
+<script src="scripts/cart.js" type="module">
+
+</script>

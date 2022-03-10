@@ -1,0 +1,86 @@
+@import url(//db.onlinewebfonts.com/c/47b83f8dbd3bf93e0df5674b32c6a7e4?family=BrandonTextWeb-Regular);
+
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  font-family: "BrandonTextWeb-Regular";
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  background-color: rgb(22, 25, 35);
+  color: rgb(185, 186, 188);
+  align-items: center;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+#iconDiv {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#icon {
+  width: 120px;
+}
+
+#midDiv {
+  display: flex;
+  font-size: 1.15em;
+  width: 50%;
+  gap: 62px;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: -110px;
+  cursor: pointer;
+}
+
+#midDiv > p > a {
+  text-decoration: none;
+  color: rgb(185, 186, 188);
+}
+
+#midDiv > p > a:hover {
+    color: white;
+}
+
+#midDiv > p:hover {
+  color: white;
+}
+
+#lastDiv {
+  display: flex;
+  align-items: center;
+  width: 24%;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+#location {
+  width: 27px;
+}
+
+#getApp {
+  border: 1px solid white;
+  padding: 7px 15px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+
+#userPic {
+  width: 35px;
+  border-radius: 50%;
+}
+
+#cart {
+  width: 25px;
+}
+
+

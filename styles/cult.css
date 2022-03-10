@@ -1,0 +1,258 @@
+#img1 {
+  width: 100%;
+}
+#img2 {
+  width: 85%;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 110px;
+}
+#img2:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#h2 {
+  margin-top: 80px;
+  margin-left: 110px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+#p1 {
+  font-size: 20px;
+  color: rgb(144, 142, 142);
+  margin-left: 110px;
+  font-weight: bold;
+}
+#pass {
+  margin-left: 100px;
+}
+#pass > img {
+  margin-right: 18px;
+}
+#p2 {
+  font-size: 30px;
+  font-weight: bold;
+
+  margin-left: 110px;
+  margin-top: 120px;
+}
+
+#img3 {
+  width: 100%;
+}
+
+#box {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(88, 98, 132);
+  margin-top: 80px;
+}
+#bh2 {
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  padding-top: 40px;
+  margin-bottom: 30px;
+}
+
+#bp1 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: grey;
+  margin-top: -25px;
+}
+#innerbox > hr {
+  width: 340px;
+  height: 0px;
+  margin-top: 10px;
+}
+#innerbox {
+  display: flex;
+  margin-top: 40px;
+}
+#innerbox > p {
+  color: white;
+  font-size: 20px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+#innerbox1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+#innerbox1 > p {
+  margin-left: 200px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+#p3 {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#innerbox2 {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  gap: 3%;
+  margin-top: 40px;
+}
+
+#coupon {
+  width: 30%;
+}
+
+#topBox {
+  background-color: white;
+  height: 63px;
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0px 10px;
+  font-size: 0.9em;
+  font-weight: bold;
+  border-bottom: 1px black dashed;
+}
+
+#strTxt {
+  color: rgb(175, 175, 175);
+  text-decoration: line-through;
+}
+
+#btmBox {
+  border-radius: 10px;
+  display: flex;
+  padding: 0px 10px;
+  gap: 10px;
+  height: 40px;
+  background-color: white;
+  align-items: center;
+}
+
+#buy {
+  color: rgb(255, 50, 120);
+  font-weight: bold;
+}
+
+#btmBox > img {
+  transform: scale(-1, 1);
+  width: 15px;
+}
+
+#btmBox > p {
+  font-size: 0.75em;
+}
+
+#workout {
+  margin-left: 110px;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+#grid-box {
+  width: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0px 100px;
+}
+
+#grid-box > img {
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+#quick {
+  font-size: 25px;
+  margin-left: 150px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.help {
+  font-size: 16px;
+  width: 80%;
+  margin-left: 150px;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(180, 180, 180);
+  padding-bottom: 15px;
+}
+
+.h {
+  width: 80%;
+  background-color: rgb(218, 218, 218);
+}
+
+#spirit {
+  font-size: 80px;
+  font-weight: bold;
+  margin-left: 150px;
+  margin-top: 80px;
+  font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial,
+    sans-serif;
+  line-height: 1.2;
+  letter-spacing: -0.6px;
+  vertical-align: bottom;
+}
+#fearless {
+  font-size: 60px;
+  margin-left: 150px;
+  color: rgb(0, 0, 0);
+  font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial,
+    sans-serif;
+  line-height: 1.2;
+  letter-spacing: -0.6px;
+  vertical-align: bottom;
+  margin-top: -50px;
+  font-weight: bold;
+}
+#athelete {
+  font-size: 50px;
+  color: rgb(141, 147, 160);
+  font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial,
+    sans-serif;
+  line-height: 1.2;
+  letter-spacing: -0.6px;
+  vertical-align: bottom;
+  margin-left: 150px;
+  margin-top: -30px;
+  font-weight: bold;
+}
+#faqs {
+  font-size: 45px;
+  margin-left: 110px;
+  margin-top: 100px;
+  font-weight: bolder;
+}
+#ques {
+  font-size: 25px;
+  margin-left: 110px;
+  margin-top: -20px;
+  font-weight: bolder;
+  color: grey;
+}
+summary {
+  margin-left: 140px;
+}
+.sum {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sum > img {
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+.sum > li {
+  font-size: 30px;
+  color: grey;
+  font-weight: bold;
+}
